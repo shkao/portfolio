@@ -10,7 +10,7 @@ This repository serves as a showcase for the bioinformatics applications and pip
 
 This Shiny app provides a comprehensive analysis tool for exploring relationships between drug sensitivity and gene expression/copy number across various cancer types. It's designed to assist researchers at Senhwa Biosciences in drug discovery and development processes.
 
-![Senhwa Biosciences Analysis App](shiny_app/img/app_screenshot.png)
+![Senhwa Biosciences Analysis App](apps/shiny/senhwa/img/app_screenshot.png)
 
 #### Key Features
 
@@ -83,10 +83,10 @@ This scRNA-seq analysis pipeline is designed to process raw sequencing data, per
 
 #### File Descriptions
 
-- `01_scRNAseq_QC_and_filtering.R`: R script for quality control and filtering
-- `01_scRNAseq_QC_and_filtering.py`: Python script for quality control and filtering
-- `02_scRNAseq_normalization.R`: R script for normalization and data transformation
-- `02_scRNAseq_normalization.py`: Python script for normalization
+- `scripts/scRNA_analysis/01_scRNAseq_QC_and_filtering.R`: R script for quality control and filtering
+- `scripts/scRNA_analysis/01_scRNAseq_QC_and_filtering.py`: Python script for quality control and filtering
+- `scripts/scRNA_analysis/02_scRNAseq_normalization.R`: R script for normalization and data transformation
+- `scripts/scRNA_analysis/02_scRNAseq_normalization.py`: Python script for normalization
 
 #### Dependencies
 
