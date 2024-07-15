@@ -12,7 +12,7 @@ and creating interactive tools for biological research.
  This Shiny app provides a comprehensive analysis tool for exploring relationships between drug sensitivity and gene expression/copy number across various cancer
  types. It's designed to assist researchers at Senhwa Biosciences in drug discovery and development processes.
 
- ![Senhwa Biosciences Analysis App](shiny_apps/img/app_screenshot.png)
+ ![Senhwa Biosciences Analysis App](shiny_app/img/app_screenshot.png)
 
 ### Key Features
 
@@ -46,7 +46,7 @@ and creating interactive tools for biological research.
 
 This project demonstrates my expertise in analyzing single-cell RNA sequencing data using R and Bioconductor packages.
 
-#### Key Features:
+#### Key Features
 
 - **Quality Control**: Implemented in `scRNAseq_QC.R`
   - Filtering of low-quality cells based on library size, number of features, and mitochondrial percentage
@@ -57,15 +57,15 @@ This project demonstrates my expertise in analyzing single-cell RNA sequencing d
   - Variance stabilization using sctransform
   - Visualization of data before and after normalization
 
-#### Technical Details:
+#### Technical Details
 
 - **Key Libraries**: scater, scran, sctransform, DropletUtils, ggplot2
 - **Data Handling**: Efficient manipulation of large-scale single-cell data
 - **Visualization**: Custom plots for QC metrics and normalized data
 
-#### How to Use:
+#### How to Use
 
 1. Run `scRNAseq_QC.R` to perform initial quality control on your single-cell RNA-seq data.
 2. Use `scRNAseq_normalization_plotting.R` to normalize the filtered data and generate visualizations.
 
-These scripts provide a robust pipeline for processing and analyzing single-cell RNA sequencing data, showcasing my ability to work with complex biological datasets and implement state-of-the-art bioinformatics methods.
+These scripts provide a basic pipeline for processing and analyzing single-cell RNA sequencing data, showcasing my experience to work with complex biological datasets.
