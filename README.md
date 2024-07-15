@@ -1,9 +1,11 @@
 # Bioinformatics Portfolio
 
- This repository serves as a showcase for the bioinformatics applications and pipelines I have developed. It demonstrates my skills in data analysis, visualization,
- and creating interactive tools for biological research.
+This repository serves as a showcase for the bioinformatics applications and pipelines I have developed. It demonstrates my skills in data analysis, visualization,
+and creating interactive tools for biological research.
 
-## Featured Project: Drug Sensitivity and Gene Expression Analysis for Senhwa Biosciences
+## Featured Projects
+
+### 1. Drug Sensitivity and Gene Expression Analysis for Senhwa Biosciences
 
 ### Overview
 
@@ -39,3 +41,31 @@
 
  This project showcases my ability to create user-friendly, interactive tools for complex biological data analysis, combining statistical methods with intuitive
  visualizations to aid in scientific research and drug discovery.
+
+### 2. Single-Cell RNA Sequencing Analysis Pipeline
+
+This project demonstrates my expertise in analyzing single-cell RNA sequencing data using R and Bioconductor packages.
+
+#### Key Features:
+
+- **Quality Control**: Implemented in `scRNAseq_QC.R`
+  - Filtering of low-quality cells based on library size, number of features, and mitochondrial percentage
+  - Visualization of QC metrics across samples and experimental groups
+
+- **Normalization and Plotting**: Implemented in `scRNAseq_normalization_plotting.R`
+  - Normalization of UMI counts using deconvolution method
+  - Variance stabilization using sctransform
+  - Visualization of data before and after normalization
+
+#### Technical Details:
+
+- **Key Libraries**: scater, scran, sctransform, DropletUtils, ggplot2
+- **Data Handling**: Efficient manipulation of large-scale single-cell data
+- **Visualization**: Custom plots for QC metrics and normalized data
+
+#### How to Use:
+
+1. Run `scRNAseq_QC.R` to perform initial quality control on your single-cell RNA-seq data.
+2. Use `scRNAseq_normalization_plotting.R` to normalize the filtered data and generate visualizations.
+
+These scripts provide a robust pipeline for processing and analyzing single-cell RNA sequencing data, showcasing my ability to work with complex biological datasets and implement state-of-the-art bioinformatics methods.
