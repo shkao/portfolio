@@ -44,7 +44,7 @@ and creating interactive tools for biological research.
 
 ### 2. Single-Cell RNA Sequencing Analysis Pipeline
 
-This project demonstrates my expertise in analyzing single-cell RNA sequencing data using R and Bioconductor packages.
+This project demonstrates my experience in analyzing single-cell RNA sequencing data using R and Bioconductor packages.
 
 #### Key Features
 
