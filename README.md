@@ -40,11 +40,8 @@ This scRNA-seq analysis pipeline is designed to process raw sequencing data, per
    - R: Run `02_scRNAseq_normalization.R`
    - Python: Use `log_normalize` function from `02_scRNAseq_normalization.py`
 
-3. Follow the workflow outlined in `scRNA_analysis/README.md` for a step-by-step guide on data processing.
-
 ## File Descriptions
 
-- `scRNA_analysis/README.md`: Detailed workflow for the scRNA-seq analysis pipeline
 - `01_scRNAseq_QC_and_filtering.R`: R script for quality control and filtering
 - `01_scRNAseq_QC_and_filtering.py`: Python script for quality control and filtering
 - `02_scRNAseq_normalization.R`: R script for normalization and data transformation
@@ -53,6 +50,7 @@ This scRNA-seq analysis pipeline is designed to process raw sequencing data, per
 ## Dependencies
 
 ### R Libraries
+
 - scater
 - scran
 - sctransform
@@ -65,6 +63,7 @@ This scRNA-seq analysis pipeline is designed to process raw sequencing data, per
 - AnnotationHub
 
 ### Python Libraries
+
 - scanpy
 - anndata
 - numpy
