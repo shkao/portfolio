@@ -44,28 +44,37 @@ and creating interactive tools for biological research.
 
 ### 2. Single-Cell RNA Sequencing Analysis Pipeline
 
-This project demonstrates my experience in analyzing single-cell RNA sequencing data using R and Bioconductor packages.
+This project demonstrates my experience in analyzing single-cell RNA sequencing data using both R and Python, showcasing versatility in bioinformatics tools.
 
 #### Key Features
 
-- **Quality Control**: Implemented in `scRNAseq_QC.R`
+- **Quality Control and Filtering**: Implemented in both R (`01_scRNAseq_QC_and_filtering.R`) and Python (`01_scRNAseq_QC_and_filtering.py`)
   - Filtering of low-quality cells based on library size, number of features, and mitochondrial percentage
-  - Visualization of QC metrics across samples and experimental groups
+  - Visualization of QC metrics across samples and experimental groups (R version)
+  - Flexible parameter setting for QC thresholds (Python version)
 
-- **Normalization and Plotting**: Implemented in `scRNAseq_normalization_plotting.R`
-  - Normalization of UMI counts using deconvolution method
-  - Variance stabilization using sctransform
-  - Visualization of data before and after normalization
+- **Normalization and Data Transformation**: Implemented in both R (`02_scRNAseq_normalization.R`) and Python (`02_scRNAseq_normalization.py`)
+  - Normalization of UMI counts using various methods including deconvolution (R) and log-normalization (Python)
+  - Variance stabilization using sctransform (R version)
+  - Visualization of data before and after normalization (R version)
 
 #### Technical Details
 
-- **Key Libraries**: scater, scran, sctransform, DropletUtils, ggplot2
-- **Data Handling**: Efficient manipulation of large-scale single-cell data
-- **Visualization**: Custom plots for QC metrics and normalized data
+- **R Libraries**: scater, scran, sctransform, DropletUtils, ggplot2, patchwork
+- **Python Libraries**: scanpy, anndata, numpy
+- **Data Handling**: Efficient manipulation of large-scale single-cell data in both R and Python
+- **Visualization**: Custom plots for QC metrics and normalized data (primarily in R version)
 
 #### How to Use
 
-1. Run `scRNAseq_QC.R` to perform initial quality control on your single-cell RNA-seq data.
-2. Use `scRNAseq_normalization_plotting.R` to normalize the filtered data and generate visualizations.
+1. Quality Control and Filtering:
+   - R: Run `01_scRNAseq_QC_and_filtering.R` for comprehensive QC with visualizations.
+   - Python: Use functions in `01_scRNAseq_QC_and_filtering.py`, adjusting parameters as needed.
 
-These scripts provide a basic pipeline for processing and analyzing single-cell RNA sequencing data, showcasing my experience to work with complex biological datasets.
+2. Normalization and Data Transformation:
+   - R: Use `02_scRNAseq_normalization.R` for detailed normalization, including sctransform and visualizations.
+   - Python: Apply `log_normalize` function from `02_scRNAseq_normalization.py` for basic log-normalization.
+
+3. Follow the workflow outlined in `scRNA_analysis/README.md` for a step-by-step guide on data processing.
+
+These scripts provide a comprehensive pipeline for processing and analyzing single-cell RNA sequencing data, showcasing my ability to work with complex biological datasets using multiple programming languages and frameworks.
