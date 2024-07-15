@@ -1,5 +1,7 @@
 # Bioinformatics Portfolio
 
+A comprehensive showcase of bioinformatics applications and pipelines demonstrating expertise in data analysis, visualization, and interactive tool development for biological research.
+
 This repository serves as a showcase for the bioinformatics applications and pipelines I have developed. It demonstrates my skills in data analysis, visualization,
 and creating interactive tools for biological research.
 
