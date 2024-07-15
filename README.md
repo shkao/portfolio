@@ -1,8 +1,49 @@
-# Single-Cell RNA Sequencing Analysis Pipeline
+# Bioinformatics Portfolio
+
+This repository serves as a showcase for the bioinformatics applications and pipelines I have developed. It demonstrates my skills in data analysis, visualization, and creating interactive tools for biological research.
+
+## Featured Projects
+
+### 1. Drug Sensitivity and Gene Expression Analysis for Senhwa Biosciences
+
+#### Overview
+
+This Shiny app provides a comprehensive analysis tool for exploring relationships between drug sensitivity and gene expression/copy number across various cancer types. It's designed to assist researchers at Senhwa Biosciences in drug discovery and development processes.
+
+![Senhwa Biosciences Analysis App](shiny_app/img/app_screenshot.png)
+
+#### Key Features
+
+- **Compound and Gene Selection**: Users can select specific compounds and genes of interest.
+- **Multiple Data Sources**: Integrates data from PRISM, PRISM AUC, and GDSC AUC databases.
+- **Interactive Visualizations**:
+  - Scatter plots showing correlations between drug sensitivity and gene features.
+  - Venn diagrams comparing cell lines used across different datasets.
+- **Statistical Analysis**: Provides correlation coefficients for each cancer subtype.
+- **Data Export**: Options to download figures and data tables for further analysis.
+
+#### Technical Details
+
+- **Framework**: Built using R Shiny
+- **Key Libraries**: tidyverse, ggplot2, ggpubr, ggvenn, shinydashboard
+- **Data Handling**: Efficient data manipulation using dplyr and tidyr
+- **Visualization**: Custom plots created with ggplot2 and its extensions
+
+#### How to Use
+
+1. Select a compound of interest from the dropdown menu.
+2. Choose a gene and specify whether to analyze its expression or copy number.
+3. Explore the correlation table to identify significant relationships.
+4. Click on a specific cancer subtype to view detailed scatter plots and Venn diagrams.
+5. Download figures or data tables for further analysis or reporting.
+
+This project showcases my ability to create user-friendly, interactive tools for complex biological data analysis, combining statistical methods with intuitive visualizations to aid in scientific research and drug discovery.
+
+### 2. Single-Cell RNA Sequencing Analysis Pipeline
 
 This repository contains a comprehensive pipeline for analyzing single-cell RNA sequencing (scRNA-seq) data, implemented in both R and Python. The pipeline covers quality control, filtering, normalization, and data transformation steps, providing a versatile toolkit for researchers working with scRNA-seq data.
 
-## Table of Contents
+#### Table of Contents
 
 1. [Overview](#overview)
 2. [Pipeline Components](#pipeline-components)
@@ -10,11 +51,11 @@ This repository contains a comprehensive pipeline for analyzing single-cell RNA 
 4. [File Descriptions](#file-descriptions)
 5. [Dependencies](#dependencies)
 
-## Overview
+#### Overview
 
 This scRNA-seq analysis pipeline is designed to process raw sequencing data, perform quality control, filter low-quality cells and genes, normalize the data, and prepare it for downstream analyses. The pipeline is implemented in both R and Python, allowing users to choose their preferred language or compare results between the two implementations.
 
-## Pipeline Components
+#### Pipeline Components
 
 1. **Quality Control and Filtering**
    - Implemented in R (`01_scRNAseq_QC_and_filtering.R`) and Python (`01_scRNAseq_QC_and_filtering.py`)
@@ -30,7 +71,7 @@ This scRNA-seq analysis pipeline is designed to process raw sequencing data, per
    - Applies variance stabilization using sctransform (R version)
    - Visualizes data before and after normalization (R version)
 
-## Usage
+#### Usage
 
 1. **Quality Control and Filtering:**
    - R: Run `01_scRNAseq_QC_and_filtering.R`
@@ -40,16 +81,16 @@ This scRNA-seq analysis pipeline is designed to process raw sequencing data, per
    - R: Run `02_scRNAseq_normalization.R`
    - Python: Use `log_normalize` function from `02_scRNAseq_normalization.py`
 
-## File Descriptions
+#### File Descriptions
 
 - `01_scRNAseq_QC_and_filtering.R`: R script for quality control and filtering
 - `01_scRNAseq_QC_and_filtering.py`: Python script for quality control and filtering
 - `02_scRNAseq_normalization.R`: R script for normalization and data transformation
 - `02_scRNAseq_normalization.py`: Python script for normalization
 
-## Dependencies
+#### Dependencies
 
-### R Libraries
+##### R Libraries
 
 - scater
 - scran
@@ -62,7 +103,7 @@ This scRNA-seq analysis pipeline is designed to process raw sequencing data, per
 - ensembldb
 - AnnotationHub
 
-### Python Libraries
+##### Python Libraries
 
 - scanpy
 - anndata
