@@ -43,14 +43,6 @@ This project showcases my ability to create user-friendly, interactive tools for
 
 This repository contains a comprehensive pipeline for analyzing single-cell RNA sequencing (scRNA-seq) data, implemented in both R and Python. The pipeline covers quality control, filtering, normalization, and data transformation steps, providing a versatile toolkit for researchers working with scRNA-seq data.
 
-#### Table of Contents
-
-1. [Overview](#overview)
-2. [Pipeline Components](#pipeline-components)
-3. [Usage](#usage)
-4. [File Descriptions](#file-descriptions)
-5. [Dependencies](#dependencies)
-
 #### Overview
 
 This scRNA-seq analysis pipeline is designed to process raw sequencing data, perform quality control, filter low-quality cells and genes, normalize the data, and prepare it for downstream analyses. The pipeline is implemented in both R and Python, allowing users to choose their preferred language or compare results between the two implementations.
